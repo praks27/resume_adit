@@ -1,0 +1,125 @@
+*{
+    text-decoration:none;
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    margin:0px;
+    padding:0px;
+    font-family:'open sans',sans-serif;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position:relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: 800;
+    float:left;
+    font-family:'Courier';
+    color: #F08A5D;
+}
+
+.menu{
+    float:right;
+}
+
+nav{
+    width: 100%;
+    margin:auto;
+    display:flex;
+    line-height: 80px;
+    position:sticky;
+    top: 0;
+    background:lightcyan;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow:hidden;
+}
+
+nav ul li{
+    float:left
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin:auto;
+    display:flex;
+    margin-bottom:50px;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom:50px;
+}
+
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight:bold;
+    font-family:comic sans ms;
+    color:#F08A5D;
+}
+
+h2{
+    font-size: 30px;
+    font-family: courier;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color:#F08A5D;
+    width:100%;
+    line-height: 50px;
+}
+
+.tbl-hijau{
+    background: #00ADB5;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.tbl-hijau:hover{
+    background: #3F72AF;
+    text-decoration: none;
+}
+
+.tbl-biru{
+    background: #3F72AF ;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.tbl-biru:hover{
+    background: deepskyblue;
+    text-decoration: none;
+}
+
+p {
+margin: 5px 0px 5px 0px;
+padding: 5px 0px 5px 0px;
+}
+
+
