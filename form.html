@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>FORM PENDAFTARAN</legend>
+            <table>
+                <tr>
+                    <td><label for="">nama lengkap</td></label>
+                    <td>: <input type="nama" name="nama" id="nama" placeholder="input name"></td>
+                </tr>
+                <tr>
+                    <td><label for="">email</td></label>
+                    <td>: <input type="email" name="txt_email" id="txt_email" placeholder="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="">password</td></label>
+                    <td>: <input type="password" name="txt_pswd" id="txt_pswd" placeholder="password"></td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td>: <input type="date" name="tgL_lahir" id="tgl_lahir"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:<input type="radio" name="JK" id="JK" value="P">perempuan
+                    <input type="radio" name="JK" id="JK" value="l">laki-laki
+                </td>
+                </tr>
+                <tr>
+                    <td>Social Media</td>
+                    <td>:
+                    <input type="checkbox" name="cek_fb" id="cek_fb" value="FB">FB
+                    <input type="checkbox" name="cek_ig" id="cek_ig" value="IG">IG
+                    <input type="checkbox" name="cek_tw" id="cek_tw" value="TWITTER">TWITTER
+                    </td>
+                </tr>
+                <tr>
+                    <td>Agama</td>
+                    <td>:<select name="agama" id="agama">
+                          <option value="">pilih agama</option>
+                          <option value="Islam">Islam</option>
+                          <option value="Kristen">Kristen protestan</option>
+                          <option value="katolik">Kristen katolik</option>
+                          <option value="hindu">Hindu</option>
+                          <option value="Budha">Budha</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td>: <textarea name="alamat" id="alamat" cols="30" rows="10" placeholder="masukkan alamat lengkap"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Provinsi</td>
+                    <td>:
+                        <input list="listprovinsi" nama="provinsi"/>
+                        <datalist id="listprovinsi">
+                            <option value="jawa timur">jatim</option>
+                            <option value="jawa barat">jabar</option>
+                            <option value="jawa tengah">jateng</option>
+                            <option value="bali">bali</option>
+                            <option value="kalimantan selatan">kalsel</option>
+                        </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="filefoto">Upload Foto</label></td>
+                    <td>:<input type="file" name="filefoto" id="filefoto"/></td>
+                </tr>
+            </table><hr><br>
+            <button type="submit" name="btn_submit" id="btn_submit">submit</button>
+            <button type="reset" name="btn_reset" id="btn_reset">reset</button>
+            <button  type="button" name="btn_button" id="btn-button">tombol</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
